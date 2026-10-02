@@ -1,0 +1,3 @@
+read_verilog tcl/tm1638.v tcl/top_tm1638_demo.v
+synth_ice40 -top top_tm1638_demo -json build/top_tm1638_demo_netlist.json
+check

@@ -21,6 +21,6 @@ set_io tm_dio 2
 # Optional: On-board LEDs (Untuk Debugging)
 # ------------------------------------------
 # Jika kamu ingin menyalakan LED onboard saat program berjalan
-set_io LED_G 41
-set_io LED_R 40
-set_io LED_B 39
+# set_io LED_G 41
+# set_io LED_R 40
+# set_io LED_B 39
