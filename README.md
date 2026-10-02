@@ -103,7 +103,10 @@ fisik tetap perlu dilakukan langsung pada board.
 Repositori tujuan dari remote origin:
 https://github.com/Alphonsusadt/tm1638-fpga-demo
 
-Video demo FPGA: belum tersedia; tambahkan link video setelah direkam dan diunggah.
+### Link video demo
+
+**Link video:** [Tonton video demo FPGA](https://youtu.be/bd-I7llxBzw)
+
 Video perlu menunjukkan mode S1/00 bolak-balik, S2/01 kiri, dan S3/10 kanan,
 termasuk LED1/LED2/LED3 serta mode yang tetap aktif setelah tombol dilepas.
 Perubahan lokal terbaru belum otomatis dipublikasikan ke GitHub.
