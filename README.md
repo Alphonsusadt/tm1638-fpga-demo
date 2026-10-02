@@ -92,7 +92,8 @@ icesprog -p
 make flash
 ```
 
-Hasil audit dan hash bitstream tersedia di [FLASH_READINESS.md](FLASH_READINESS.md).
+Pengujian mencakup driver serial, animasi, pemilihan mode dengan satu penekanan,
+LED indikator, divider produksi, dan startup netlist hasil sintesis.
 Bitstream kontrol tombol sudah di-flash ke iCESugar dan hash hasil readback
 flash identik dengan file bitstream. Pengamatan tampilan dan penekanan tombol
 fisik tetap perlu dilakukan langsung pada board.
@@ -103,6 +104,7 @@ Repositori tujuan dari remote origin:
 https://github.com/Alphonsusadt/tm1638-fpga-demo
 
 Video demo FPGA: belum tersedia; tambahkan link video setelah direkam dan diunggah.
-Petunjuk rekaman serta pengumpulan tersedia di [SUBMISSION.md](SUBMISSION.md).
+Video perlu menunjukkan mode S1/00 bolak-balik, S2/01 kiri, dan S3/10 kanan,
+termasuk LED1/LED2/LED3 serta mode yang tetap aktif setelah tombol dilepas.
 Perubahan lokal terbaru belum otomatis dipublikasikan ke GitHub.
 Setelah kode dan video tersedia di GitHub, kumpulkan link repositori melalui eLOK.

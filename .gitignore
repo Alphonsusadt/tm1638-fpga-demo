@@ -1,6 +1,29 @@
+# Output build FPGA dan simulasi
+/build/
+/sim/
 *.asc
 *.bin
 *.blif
 *.vvp
 *.vcd
+*.fst
+
+# Log, file sementara, dan cadangan editor
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Metadata lokal sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Referensi tugas lokal
 /Tugas/
+
+# Dokumentasi lokal; hanya README.md yang diunggah
+*.md
+!README.md
